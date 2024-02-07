@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfSaveData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SaveData>
+    <name>aa</name>
+    <level>1</level>
+    <speed>2</speed>
+  </SaveData>
+  <SaveData>
+    <name>bb</name>
+    <level>2</level>
+    <speed>1</speed>
+  </SaveData>
+</ArrayOfSaveData>
