@@ -35,9 +35,8 @@ namespace EasyXml
         /** <summary>
          * xml 파일을 읽어서 객체로 반환
          * </summary>
-         * <param name="xmlFileName"></param>
-         * <typeparam name="T"></typeparam>
-         * <returns></returns>
+         * <param name="xmlFileName">xml 파일 이름</param>
+         * <returns>xml 파일을 읽어 만든 객체</returns>
          */
         public static T FromXml<T>(string xmlFileName)
         {
