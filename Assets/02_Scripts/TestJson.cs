@@ -19,13 +19,12 @@ namespace _02_Scripts
             saveDataDic = new Dictionary<string, List<SaveData>>();
             saveDataDic.Add("saveDic", saveDataList);
             saveData = null;
-            saveDataList = null;
             StartCoroutine(XMLTest());
         }
         
         IEnumerator XMLTest()
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(5f);
             saveData = EasyToXml.FromXml<SaveData>("save");
             saveDataList = EasyToXml.ListFromXml<SaveData>("saveList");
         }

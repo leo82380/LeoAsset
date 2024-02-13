@@ -27,9 +27,8 @@ namespace EasyXml
             }
             string path = LocalPath + xmlFileName + ".xml";
             _serializer = new XmlSerializer(typeof(T));
-            FileStream stream = new FileStream(path, FileMode.Create);
+            using FileStream stream = new FileStream(path, FileMode.Create);
             _serializer.Serialize(stream, obj);
-            stream.Close();
         }
         
         /** <summary>
@@ -50,9 +49,8 @@ namespace EasyXml
                 return defaultObj;
             }
             _serializer = new XmlSerializer(typeof(T));
-            FileStream stream = new FileStream(path, FileMode.Open);
+            using FileStream stream = new FileStream(path, FileMode.Open);
             T obj = (T)_serializer.Deserialize(stream);
-            stream.Close();
             return obj;
         }
         
@@ -73,9 +71,8 @@ namespace EasyXml
             }
             string path = LocalPath + xmlFileName + ".xml";
             _serializer = new XmlSerializer(typeof(List<T>));
-            FileStream stream = new FileStream(path, FileMode.Create);
+            using FileStream stream = new FileStream(path, FileMode.Create);
             _serializer.Serialize(stream, list);
-            stream.Close();
         }
 
         /** <summary>
@@ -96,9 +93,8 @@ namespace EasyXml
                 return defaultList;
             }
             _serializer = new XmlSerializer(typeof(List<T>));
-            FileStream stream = new FileStream(path, FileMode.Open);
+            using FileStream stream = new FileStream(path, FileMode.Open);
             List<T> list = (List<T>)_serializer.Deserialize(stream);
-            stream.Close();
             return list;
         }
     }

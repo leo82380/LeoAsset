@@ -339,10 +339,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveData:
-    name: 
-    level: 0
-    speed: 0
-  saveDataList: []
+    name: aaa
+    level: 2
+    speed: 123
+  saveDataList:
+  - name: aa
+    level: 1
+    speed: 2
+  - name: bb
+    level: 2
+    speed: 1
 --- !u!4 &1632992011
 Transform:
   m_ObjectHideFlags: 0
