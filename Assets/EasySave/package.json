@@ -1,14 +1,14 @@
 ﻿{
-  "name": "com.leo82380.easyxml",
-  "version": "1.0.6",
-  "displayName" : "EasyXml",
-  "description" : "EasyXml은 유니티에서 쉽게 Xml파일을 읽고 쓸 수 있게 도와주는 에셋입니다.",
+  "name": "com.leo82380.easysave",
+  "version": "1.0.0",
+  "displayName" : "EasySave",
+  "description" : "EasySave는 유니티에서 쉽게 저장 파일을 만들고 그 파일을 읽고 쓸 수 있게 도와주는 에셋입니다.",
   "unity": "2021.3",
   "documentationUrl" : "https://github.com/leo82380/EasyXml",
   "hideInEditor" : false,
   "keywords": [
-    "Xml",
-    "EasyXml",
+    "Save",
+    "EasySave",
     "Leo82380"
   ],
   "author": {

@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using EasyJson;
-using EasyXml;
+using EasySave.Json;
+using EasySave.Xml;
 
 namespace _02_Scripts
 {
