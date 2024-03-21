@@ -340,15 +340,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveData:
     name: aaa
-    level: 2
-    speed: 123
-  saveDataList:
-  - name: aa
     level: 1
-    speed: 2
-  - name: bb
+    speed: 12
+  saveDataList:
+  - name: aab
     level: 2
-    speed: 1
+    speed: 3
+  - name: a
+    level: 213
+    speed: 1234
 --- !u!4 &1632992011
 Transform:
   m_ObjectHideFlags: 0
@@ -358,7 +358,7 @@ Transform:
   m_GameObject: {fileID: 1632992009}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.40748, y: -0.06694412, z: -2.567983}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

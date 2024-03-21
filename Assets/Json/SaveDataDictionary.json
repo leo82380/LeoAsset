@@ -1,0 +1,17 @@
+{
+  "Player1": {
+    "name": "Player1",
+    "level": 1,
+    "speed": 1.0
+  },
+  "Player2": {
+    "name": "Player2",
+    "level": 2,
+    "speed": 2.0
+  },
+  "Player3": {
+    "name": "Player3",
+    "level": 3,
+    "speed": 3.0
+  }
+}
