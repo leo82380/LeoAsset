@@ -10,7 +10,7 @@ public class AutoCommitEditor : Editor
     public static void AutoCommit()
     {
         system("git add .");
-        system("git commit -m \"Auto Commit\"");
+        system("git commit -m \"yasashi\"");
         system("git push");
     }
 }
