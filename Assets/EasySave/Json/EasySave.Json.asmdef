@@ -1,7 +1,7 @@
 {
     "name": "EasySave.Json",
     "rootNamespace": "",
-    "references": [],
+    "references": ["GUID:5b1d356af73aa854ab655545ffaf7457"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

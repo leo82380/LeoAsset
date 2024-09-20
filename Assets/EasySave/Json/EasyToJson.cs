@@ -20,7 +20,7 @@ namespace EasySave.Json
             }
         }
 
-        private static string GetFilePath(string fileName)
+        internal static string GetFilePath(string fileName)
         {
             return Path.Combine(LocalPath, $"{fileName}.json");
         }
@@ -41,7 +41,7 @@ namespace EasySave.Json
             File.WriteAllText(path, json);
             Debug.Log(json);
         }
-        
+
         /**
          * <summary>
          * Json 파일을 읽어서 객체로 반환
@@ -65,6 +65,8 @@ namespace EasySave.Json
             return obj;
         }
         
+
+        
         /**
          * <summary>
          * List를 Json 파일로 저장
@@ -81,6 +83,8 @@ namespace EasySave.Json
             File.WriteAllText(path, json);
             Debug.Log(json);
         }
+
+        
         
         /**
          * <summary>
